@@ -1,0 +1,18 @@
+$dm:DM Sans,sans-serif;
+$mul:'Mulish', sans-serif;
+
+
+
+
+@mixin text ($ff,$fw,$fz,$lh,$col){
+  font-family: $ff;
+  font-weight: $fw;
+  font-size: $fz;
+  line-height: $lh;
+  color: $col;
+}
+
+
+
+
+

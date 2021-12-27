@@ -1,0 +1,28 @@
+.audit{
+  padding-bottom: 150px;
+  &__content{
+    display: flex;
+    column-gap: 74px;
+    &-box{
+      text-align: center;
+      width: 33.33333%;
+    }
+  }
+&__title{
+  margin:20px 0;
+ text-align: center;
+  letter-spacing: -0.750316px;
+  @include text($dm,bold,24px,36px,#19191B);
+  &-left{
+    @include text($dm,bold,24px,36px,#19191B);
+margin: 25px 0;
+  }
+}
+&__text{
+@include text($mul,normal,16px,24px, #696871);
+ text-align: center;
+  letter-spacing: -0.500211px;
+}
+
+
+}

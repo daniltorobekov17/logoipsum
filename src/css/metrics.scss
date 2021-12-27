@@ -1,0 +1,25 @@
+.metrics{
+  padding: 83px 0 138px;
+  &__content{
+display: flex;
+    column-gap: 161px;
+    &-left{
+      margin-top: 190px;
+    }
+    &-title{
+      @include text($dm,bold,50px,57px,#19191b);
+    letter-spacing: -1.56316px;
+    }
+    &-subtitle{
+      @include text($mul,normal,20px,30px,#696871);
+    letter-spacing: -0.625263px;
+      margin: 30px 0;
+    }
+    &_right{
+      &-img{
+        width: 100%;
+      }
+    }
+  }
+
+}

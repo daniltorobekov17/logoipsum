@@ -1,0 +1,100 @@
+.header__btn {
+  padding: 19px 0;
+  width: 211px;
+  height: 60px;
+  cursor: pointer;
+  background: #FF7143;
+  border-radius: 10px;
+  color:#fff;
+  transition: 1s;
+  &:hover{
+    transition: 1s;
+    background-color: #88090580;
+  }
+}
+.business__subscription-btn{
+  padding: 19px 0;
+  width: 211px;
+  height: 60px;
+  cursor: pointer;
+  background: #5454D4;
+  border-radius: 10px;
+  color:#fff;
+  transition: 1s;
+  &:hover{
+    transition: 1s;
+    background-color:#88090580;
+  }
+}
+.product__content-btn {
+  width: 250px;
+  height: 60px;
+  @include text($dm, bold, 17px, 22px, #5454D4);
+  text-align: center;
+  letter-spacing: -0.531474px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  transition: 1s;
+  margin: 27px 0 36px;
+  cursor: pointer;
+
+
+  &:hover {
+    transition: 1s;
+    transform: scale(1.1);
+    background: #44550050;
+    color: white;
+  }
+}
+.btn__left {
+  @include text($dm,normal,17px,16px,black);
+  cursor: pointer;
+  background-color: slateblue;
+  border-radius: 10px 0 0 10px;
+  width: 160px;
+  height: 65px;
+  transition: .5s;
+  &:hover{
+    transition: .5s;
+    color: white;
+  }
+}
+.btn__right {
+  @include text($mul,normal,17px,16px,black);
+  cursor: pointer;
+  border-radius:0 10px 10px 0;
+  width: 160px;
+  height: 65px;
+  transition: .5s;
+  &:hover{
+    transition: .5s;
+    color:blue;
+  }
+}
+
+  .popup__thanks-bot-btn {
+    @include text($dm, 600, 20px, 24px, #ffffff);
+    background: linear-gradient(0deg, rgba(135, 212, 255, 0.2), rgba(135, 212, 255, 0.2)), #2160B6;
+    width: 254px;
+    height: 69px;
+    border: none;
+    cursor: pointer;
+    margin: 0 110px;
+  }
+
+.overlay__btn{
+  cursor: pointer;
+  margin: 0 auto;
+  width: 300px;
+  height: 50px;
+  background-color: blueviolet;
+  @include text($mul,bold,20px,16px,#FFFFFF);
+
+}
+.popup__close-btn{
+  cursor: pointer;
+  margin: 0 auto;
+  width: 300px;
+  height: 50px;
+  background-color: blueviolet;
+}

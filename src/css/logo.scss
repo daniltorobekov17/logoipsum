@@ -1,0 +1,38 @@
+.logo {
+  padding-bottom: 83px;
+
+  &__top {
+    display: flex;
+    column-gap: 100px;
+  margin-bottom: 154px;
+
+  }
+
+  &__content {
+    display: flex;
+    column-gap: 165px;
+&-img{
+  width: 100%;
+  max-width: 340px;
+  height: 100%;
+  max-height: 473px;
+}
+
+    &-right {
+      padding-top: 130px;
+    }
+
+    &-title {
+      @include text($dm, bold, 50px, 57px, #19191B);
+      letter-spacing: -1.56316px;
+    }
+
+    &-text {
+      @include text($mul, normal, 20px, 30px, #696871);
+      letter-spacing: -0.625263px;
+      margin: 30px 0;
+    }
+
+
+  }
+}

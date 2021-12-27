@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;900&display=swap');
+@import "enhancers";
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+border: none;
+  font-style: normal;
+  scroll-behavior: smooth;
+}
+.container{
+  max-width:1146px ;
+  width:100%;
+  margin: 0 auto;
+  padding: 0 15px;
+
+}
+
+.link{
+    @include text($dm, bold, 17px, 22px, #5454D4);
+    letter-spacing: -0.531474px;
+  transition: .8s;
+  &:hover{
+    color: red;
+    transition: .8s;
+  }
+}
+.burger{
+  display: none;
+}
+@import "overlay";
+@import "header";
+@import "button";
+@import "business";
+@import "logo";
+@import "metrics";
+@import "audit";
+@import "product";
+@import "media";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

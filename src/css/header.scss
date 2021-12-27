@@ -1,0 +1,56 @@
+
+.header {
+  padding-top: 30px;
+
+&__logo{
+  width: 100%;
+  max-width: 170px;
+}
+  &__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__list{
+    display: flex;
+    column-gap: 49px;
+    }
+
+  &__link{
+    &:hover{
+      border-bottom: 3px solid #2160B6;
+      transition: .5s;
+    }
+    &-btn{
+      color: #FFFFFF;
+    }
+    display: inline-block;
+    text-transform: uppercase;
+    transition: .5s;
+    cursor: pointer;
+  @include text($dm,bold,15px,20px,#696871);
+    letter-spacing: -0.468947px;
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
